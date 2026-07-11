@@ -1,0 +1,30 @@
+:root {
+  /* colors — placeholders, replace per project */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #555555;
+  --color-accent: #2b6cb0;
+
+  /* spacing scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* typography */
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.75rem;
+  --font-size-2xl: 2.5rem;
+  --line-height-base: 1.6;
+
+  /* layout */
+  --content-max-width: 60rem;
+  --radius-md: 0.5rem;
+}
