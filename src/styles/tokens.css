@@ -25,6 +25,7 @@
   --line-height-base: 1.6;
 
   /* layout */
-  --content-max-width: 60rem;
+  --content-max-width: 120rem;
   --radius-md: 0.5rem;
+  --radius-full: 999rem;
 }
