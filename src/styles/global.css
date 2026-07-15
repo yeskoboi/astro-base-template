@@ -20,6 +20,7 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased; /* WebKit renders bold text heavier than most design tools show; this narrows the gap */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img,
@@ -66,6 +67,10 @@ body {
   color: var(--color-text);
   font-family: var(--font-sans);
   font-size: var(--font-size-md);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 h1,
