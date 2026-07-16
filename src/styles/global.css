@@ -62,6 +62,9 @@ ol {
 
 /* base */
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   line-height: var(--line-height-base);
   background: var(--color-bg);
   color: var(--color-text);
@@ -71,6 +74,11 @@ body {
   margin: 0 auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+
+main {
+  width: 100%;
+  flex: 1;
 }
 
 h1,
